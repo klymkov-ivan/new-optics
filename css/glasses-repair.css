@@ -121,10 +121,27 @@ button {
 
 @media (max-width: 768px) {
   .logo {
-    padding: 2px 0; /* було 20px — стало менше */
+    padding: 2px 0; /* було 20px — стало 2px */
   }
 
   .header-item {
     padding: 2px 0; /* менше вертикального простору між пунктами */
+  }
+
+  .list-item {
+    padding: 0 4px;
+    border-right: 1px solid #4d5ae5;
+  }
+
+  .repair-title {
+    font-size: 18px;
+  }
+
+  .upper {
+    padding: 8px 0;
+  }
+
+  .price-table {
+    margin: 10px 0;
   }
 }
