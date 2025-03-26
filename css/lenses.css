@@ -141,3 +141,13 @@ button {
 .price-table tbody tr:hover {
   background-color: #f9f9f9;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    padding: 2px 0; /* було 20px — стало менше */
+  }
+
+  .header-item {
+    padding: 2px 0; /* менше вертикального простору між пунктами */
+  }
+}
