@@ -43,6 +43,7 @@ button {
 .header-cont {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header-class {
