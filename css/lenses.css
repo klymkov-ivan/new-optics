@@ -92,6 +92,29 @@ button {
   text-align: center;
 }
 
+.lenses-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.list-item:hover {
+  background-color: #faf1e6;
+}
+
 .price-table {
   width: 100%;
   border-collapse: collapse;
