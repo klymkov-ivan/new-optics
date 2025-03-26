@@ -40,6 +40,10 @@ button {
   margin: 0 auto;
 }
 
+.header-class {
+  border-bottom: 2px solid #4d5ae5;
+}
+
 .header-cont {
   display: flex;
   justify-content: space-between;
