@@ -100,7 +100,7 @@ button {
 .maps {
   width: 100%;
   aspect-ratio: 4 / 3; /* або 16 / 9, якщо хочеш ширший вигляд */
-  max-width: 100%;
+  max-width: 600px;
   border: 0;
   display: block;
   margin: 30px auto 0;

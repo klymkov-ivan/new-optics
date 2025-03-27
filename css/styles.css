@@ -89,6 +89,27 @@ button {
   gap: 40px;
 }
 
+.hero-title-container {
+  margin: 20px 0;
+  background-color: #fff;
+  background-image: url(/images/IMG8844min.jpg);
+  background-size: cover; /* масштабування під блок */
+  background-position: center; /* центрування зображення */
+  background-repeat: no-repeat; /* не повторювати */
+  min-height: 600px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center; /* центрування заголовка по вертикалі */
+  justify-content: left; /* по горизонталі */
+  text-align: center;
+  padding: 20px;
+  color: #fff; /* або чорний, залежно від картинки */
+}
+
+.hero-title {
+  font-size: 48px;
+}
+
 @media (max-width: 768px) {
   .logo {
     padding: 2px 0; /* було 20px — стало менше */
@@ -96,5 +117,9 @@ button {
 
   .header-item {
     padding: 2px 0; /* менше вертикального простору між пунктами */
+  }
+
+  .hero-title-container {
+    min-height: 300px;
   }
 }
