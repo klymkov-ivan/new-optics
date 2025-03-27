@@ -120,6 +120,13 @@ button {
   background-color: #faf1e6;
 }
 
+.text {
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  color: #2e2f42;
+}
+
 .price-table {
   width: 100%;
   border-collapse: collapse;
