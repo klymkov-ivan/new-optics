@@ -127,6 +127,10 @@ button {
   color: #2e2f42;
 }
 
+.lens-level {
+  text-align: center;
+}
+
 .price-table {
   width: 100%;
   border-collapse: collapse;
@@ -164,6 +168,10 @@ button {
   }
 
   .lenses-title {
+    font-size: 18px;
+  }
+
+  .lens-level {
     font-size: 18px;
   }
 
