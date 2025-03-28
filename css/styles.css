@@ -90,13 +90,14 @@ button {
 }
 
 .hero-title-container {
-  margin: 20px 0;
+  margin: 20px auto;
   background-color: #fff;
   background-image: url(https://klymkov-ivan.github.io/new-optics/images/photo2025.jpeg);
   background-size: cover; /* масштабування під блок */
   background-position: center; /* центрування зображення */
   background-repeat: no-repeat; /* не повторювати */
   min-height: 600px;
+  max-width: 1920px;
   border-radius: 20px;
   display: flex;
   align-items: center; /* центрування заголовка по вертикалі */
@@ -118,10 +119,10 @@ button {
 .advantages-list {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .advantage-list-item {
-  background-color: #ffffff;
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -133,7 +134,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 @media (max-width: 768px) {
