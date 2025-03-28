@@ -92,12 +92,12 @@ button {
 .hero-title-container {
   margin: 20px 0;
   background-color: #fff;
-  background-image: url(https://klymkov-ivan.github.io/new-optics/images/IMG8844min.jpg);
+  background-image: url(/images/photo2025.jpeg);
   background-size: cover; /* масштабування під блок */
   background-position: center; /* центрування зображення */
   background-repeat: no-repeat; /* не повторювати */
   min-height: 600px;
-  border-radius: 40px;
+  border-radius: 20px;
   display: flex;
   align-items: center; /* центрування заголовка по вертикалі */
   justify-content: left; /* по горизонталі */
@@ -108,6 +108,7 @@ button {
 
 .hero-title {
   font-size: 48px;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -121,5 +122,9 @@ button {
 
   .hero-title-container {
     min-height: 300px;
+  }
+
+  .hero-title {
+    font-size: 18px;
   }
 }
